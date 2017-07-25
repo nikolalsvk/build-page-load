@@ -1,3 +1,6 @@
-#/bin/zsh
+#/bin/bash
 
-for i in {1..100000} ; { echo "Hello World" }
+for i in {1..10000000}
+do
+  printf "Hello $i World"
+done
